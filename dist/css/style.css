@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	line-height: 1.4;
+	font-size: 1.6rem;
+	color: #f4f4f4;
+}
+
+#main-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background: #f26a02;
+	height: 15vh;
+	padding: 0 5rem;
+}
+
+.nav-header {
+	font-size: 2.4rem;
+	color: #333333;
+}
+
+#section-one {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 85vh;
+	padding-top: 5rem;
+}
+
+.get-picture-button a {
+	text-decoration: none;
+	color: #f26a02;
+	background: #333333;
+	padding: 1rem 2rem;
+	font-size: 2.4rem;
+}
+
+.get-picture-box {
+	padding-top: 5rem;
+}
+
+.get-picture-selection a {
+	text-decoration: none;
+	color: #f26a02;
+	background: #333333;
+	padding: 1rem 2rem;
+	font-size: 2.4rem;
+	text-align: center;
+	margin: 0 2rem;
+}
+
+.picture-box img {
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	padding: 5rem 0;
+}
