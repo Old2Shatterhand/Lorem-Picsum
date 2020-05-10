@@ -17,6 +17,10 @@ body {
 	color: #f4f4f4;
 }
 
+.current {
+	box-shadow: 0 1.5rem 3rem;
+}
+
 #main-nav {
 	display: flex;
 	flex-direction: row;
@@ -52,13 +56,12 @@ body {
 	padding-top: 5rem;
 }
 
-.get-picture-selection a {
+.get-button-selection a {
 	text-decoration: none;
 	color: #f26a02;
 	background: #333333;
 	padding: 1rem 2rem;
 	font-size: 2.4rem;
-	text-align: center;
 	margin: 0 2rem;
 }
 
