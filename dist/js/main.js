@@ -9,7 +9,7 @@ const randomID = Math.floor(Math.random() * 750);
 
 btnBig.addEventListener("click", (e) => {
 	e.preventDefault();
-	picture.src = `https://i.picsum.photos/id/${randomID}/1600/800.jpg`;
+	picture.src = `https://picsum.photos/id/${randomID}/1600/800.jpg`;
 	btnBig.classList.add("current");
 	if (btnMid.classList.contains("current")) {
 		btnMid.classList.remove("current");
@@ -20,7 +20,7 @@ btnBig.addEventListener("click", (e) => {
 
 btnMid.addEventListener("click", (e) => {
 	e.preventDefault();
-	picture.src = `https://i.picsum.photos/id/${randomID}/1000/600.jpg`;
+	picture.src = `https://picsum.photos/id/${randomID}/1000/600.jpg`;
 	btnMid.classList.add("current");
 	if (btnBig.classList.contains("current")) {
 		btnBig.classList.remove("current");
@@ -31,7 +31,7 @@ btnMid.addEventListener("click", (e) => {
 
 btnSmall.addEventListener("click", (e) => {
 	e.preventDefault();
-	picture.src = `https://i.picsum.photos/id/${randomID}/300/200.jpg`;
+	picture.src = `https://picsum.photos/id/${randomID}/300/200.jpg`;
 	btnSmall.classList.add("current");
 	if (btnBig.classList.contains("current")) {
 		btnBig.classList.remove("current");
@@ -47,11 +47,11 @@ btnBlur.addEventListener("click", (e) => {
 		const buttons = [btnBig, btnMid, btnSmall];
 		buttons.forEach((button) => {
 			if (button.classList.contains("current") && button.classList.contains("selection-button-big")) {
-				picture.src = `https://i.picsum.photos/id/${randomID}/1600/800.jpg?blur`;
+				picture.src = `https://picsum.photos/id/${randomID}/1600/800.jpg?blur`;
 			} else if (button.classList.contains("current") && button.classList.contains("selection-button-mid")) {
-				picture.src = `https://i.picsum.photos/id/${randomID}/1000/600.jpg?blur`;
+				picture.src = `https://picsum.photos/id/${randomID}/1000/600.jpg?blur`;
 			} else if (button.classList.contains("current") && button.classList.contains("selection-button-small")) {
-				picture.src = `https://i.picsum.photos/id/${randomID}/300/200.jpg?blur`;
+				picture.src = `https://picsum.photos/id/${randomID}/300/200.jpg?blur`;
 			}
 		});
 	} else {
@@ -59,11 +59,11 @@ btnBlur.addEventListener("click", (e) => {
 		const buttons = [btnBig, btnMid, btnSmall];
 		buttons.forEach((button) => {
 			if (button.classList.contains("current") && button.classList.contains("selection-button-big")) {
-				picture.src = `https://i.picsum.photos/id/${randomID}/1600/800.jpg`;
+				picture.src = `https://picsum.photos/id/${randomID}/1600/800.jpg`;
 			} else if (button.classList.contains("current") && button.classList.contains("selection-button-mid")) {
-				picture.src = `https://i.picsum.photos/id/${randomID}/1000/600.jpg`;
+				picture.src = `https://picsum.photos/id/${randomID}/1000/600.jpg`;
 			} else if (button.classList.contains("current") && button.classList.contains("selection-button-small")) {
-				picture.src = `https://i.picsum.photos/id/${randomID}/300/200.jpg`;
+				picture.src = `https://picsum.photos/id/${randomID}/300/200.jpg`;
 			}
 		});
 	}
@@ -86,11 +86,11 @@ btnGray.addEventListener("click", (e) => {
 		const buttons = [btnBig, btnMid, btnSmall];
 		buttons.forEach((button) => {
 			if (button.classList.contains("current") && button.classList.contains("selection-button-big")) {
-				picture.src = `https://i.picsum.photos/id/${randomID}/1600/800.jpg?grayscale`;
+				picture.src = `https://picsum.photos/id/${randomID}/1600/800.jpg?grayscale`;
 			} else if (button.classList.contains("current") && button.classList.contains("selection-button-mid")) {
-				picture.src = `https://i.picsum.photos/id/${randomID}/1000/600.jpg?grayscale`;
+				picture.src = `https://picsum.photos/id/${randomID}/1000/600.jpg?grayscale`;
 			} else if (button.classList.contains("current") && button.classList.contains("selection-button-small")) {
-				picture.src = `https://i.picsum.photos/id/${randomID}/300/200.jpg?grayscale`;
+				picture.src = `https://picsum.photos/id/${randomID}/300/200.jpg?grayscale`;
 			}
 		});
 	} else {
@@ -98,11 +98,11 @@ btnGray.addEventListener("click", (e) => {
 		const buttons = [btnBig, btnMid, btnSmall];
 		buttons.forEach((button) => {
 			if (button.classList.contains("current") && button.classList.contains("selection-button-big")) {
-				picture.src = `https://i.picsum.photos/id/${randomID}/1600/800.jpg`;
+				picture.src = `https://picsum.photos/id/${randomID}/1600/800.jpg`;
 			} else if (button.classList.contains("current") && button.classList.contains("selection-button-mid")) {
-				picture.src = `https://i.picsum.photos/id/${randomID}/1000/600.jpg`;
+				picture.src = `https://picsum.photos/id/${randomID}/1000/600.jpg`;
 			} else if (button.classList.contains("current") && button.classList.contains("selection-button-small")) {
-				picture.src = `https://i.picsum.photos/id/${randomID}/300/200.jpg`;
+				picture.src = `https://picsum.photos/id/${randomID}/300/200.jpg`;
 			}
 		});
 	}
